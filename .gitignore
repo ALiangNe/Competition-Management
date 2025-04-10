@@ -1,0 +1,76 @@
+# 依赖包
+node_modules/
+/.pnp
+.pnp.js
+
+# 日志
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 测试覆盖率
+coverage/
+.nyc_output
+
+# 构建输出
+build/
+dist/
+.next/
+out/
+
+# 环境变量和配置
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 缓存
+.npm
+.eslintcache
+.cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# IDE和编辑器
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 操作系统相关
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 上传的文件（取决于项目需求）
+# uploads/
+
+# 其他
+.vercel
+.netlify
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/ 
