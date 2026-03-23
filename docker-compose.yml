@@ -1,0 +1,13 @@
+services:
+  test_a:
+    image: test_a:latest
+    container_name: test_a
+    restart: unless-stopped
+
+    ports:
+      - "3000:3000"
+
+    env_file:
+      - .env
+
+    command: ["node", "dist/app.js"]
