@@ -21,7 +21,7 @@ RUN npm install
 COPY . .
 
 # Build production bundle
-RUN npm run build
+# RUN npm run build
 
 # Expose application port (adjust according to actual config)
 EXPOSE 3000
